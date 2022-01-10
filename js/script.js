@@ -38,7 +38,7 @@ let lightColor = (element, number) => {
   setTimeout(() => {
     //remove a classe
     element.classList.remove("selected");
-  });
+  },number + 250);
 };
 
 //verifica se a ordem do clique é igual a gerada pelo jogo

@@ -3,6 +3,11 @@ body{
     background-color:aquamarine ;
 }
 
+.start{
+    font-family: 'Lato', cursive;
+    font-size: 30px;
+    font-color:green;
+}
 
 .main-game{
     height: 100vh;

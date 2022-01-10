@@ -30,15 +30,15 @@ let shuffleOrder = () => {
 
 //muda a cor
 let lightColor = (element, number) => {
-  number = number * 500;
+  number = number * 1000;
   setTimeout(() => {
     //atribui a classe
     element.classList.add("selected");
-  }, number - 250);
+  }, number - 500);
   setTimeout(() => {
     //remove a classe
     element.classList.remove("selected");
-  },number + 250);
+  },number + 200);
 };
 
 //verifica se a ordem do clique é igual a gerada pelo jogo
